@@ -41,3 +41,6 @@ To run the Jarvis Voice Assistant, execute the following command:
 
 ```bash
 python Jarvis.py
+```
+
+Say the word **goodbye** in your sentence to close the program
