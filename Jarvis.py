@@ -48,7 +48,7 @@ def send_ollama():
   
 def main(): 
     
-    speak_thread = threading.Thread(target=playintro, args=("sounds/Boot.mp3",))
+    speak_thread = threading.Thread(target=playintro, args=("Boot.mp3",))
     loading_thread = threading.Thread(target=fake_loading, args=("BOOT of ARC REACTOR Process", 15))
 
     # Démarre les threads
@@ -75,7 +75,7 @@ def main():
             # Attends que les threads se terminent avant de continuer
             speak_thread.join()
             loading_thread.join()
-            playsound('sounds/Repulsor.mp3')
+            playsound('Repulsor.mp3')
             exit()
         else :
             print(response)
